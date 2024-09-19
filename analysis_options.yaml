@@ -1,14 +1,16 @@
-analyzer:
-  exclude:
-    - lib/generated/**
+include: package:flutter_lints/flutter.yaml
 
+analyzer:
   errors:
-    missing_return: ignore
-    unnecessary_import: ignore
+    dead_code: ignore
+    unused_local_variable: ignore
     unused_import: ignore
+    unused_field: ignore
 
 linter:
   rules:
-    prefer_const_constructors: true
+    avoid_unnecessary_containers: false
+    prefer_const_constructors: false
+    use_key_in_widget_constructors: false
+    prefer_const_literals_to_create_immutables: false
     avoid_print: false
-    always_declare_return_types: false

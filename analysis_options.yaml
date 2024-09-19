@@ -1,6 +1,7 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
+  exclude: lib/lab7
   errors:
     dead_code: ignore
     unused_local_variable: ignore

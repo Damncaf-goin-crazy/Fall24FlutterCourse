@@ -1,6 +1,6 @@
 # Lab 7
 
-## Analyzer
+## Analfyzer
 
 Add rules for analyzers in analysis_options.yaml to avoid infos and warnings in main.dart
 
